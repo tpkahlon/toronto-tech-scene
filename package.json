@@ -9,7 +9,7 @@
     "url": "https://github.com/tpkahlon"
   },
   "bin": {
-    "toscene": "index.js"
+    "toscene": "./index.js"
   },
   "files": [
     "index.js",
