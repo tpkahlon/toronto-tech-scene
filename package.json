@@ -1,0 +1,49 @@
+{
+  "name": "toronto-tech-scene",
+  "version": "1.0.1",
+  "description": "A CLI that gives you list of technology focused companies in Toronto",
+  "main": "index.js",
+  "author": {
+    "name": "Tej Kahlon",
+    "email": "tejpartapsingh91@gmail.com",
+    "url": "https://github.com/tpkahlon"
+  },
+  "bin": {
+    "toscene": "index.js"
+  },
+  "files": [
+    "index.js",
+    "utils/*"
+  ],
+  "keywords": [
+    "tech",
+    "careers",
+    "jobs",
+    "toronto",
+    "ontario",
+    "canada"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpkahlon/toronto-tech-scene.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tpkahlon/toronto-tech-scene/issues"
+  },
+  "homepage": "https://github.com/tpkahlon/toronto-tech-scene#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "cli-table": "^0.3.1",
+    "colors": "^1.4.0",
+    "console-read-write": "^0.1.1",
+    "md-2-json": "^1.0.6",
+    "ora": "^4.0.4",
+    "word-wrap": "^1.2.3"
+  }
+}
